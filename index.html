@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Case Study between google lens and mobilenet</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    </head>
+    <body>
+        <h1>Case Study</h1>
+        <h3>Between google lens and Mobilenet model</h3>
+        <div class="container">
+        <ul>
+            <div class="test_image_div col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test image - </b>
+                    <img src="/book.jpg" class="img_responsive" style="width:300px; height:300px;">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b>
+                    <span>Book</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>Mobilenet Model</b>
+                    <span>Book</span>
+                </h5>
+                <div class="mini_result" class="col-xs-12">
+                    <h4>Result - No diffrence</h4>
+                    <hr>
+                    <h4></h4>
+                </div>
+            </div>
+        </ul>
+        <ul>
+            <div class="test_image_div col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test image - </b>
+                    <img src="/pen.jpg" class="img_responsive" style="width:300px; height:300px;">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b>
+                    <span>Pen</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>Mobilenet Model</b>
+                    <span>Pen</span>
+                </h5>
+                <div class="mini_result" class="col-xs-12">
+                    <h4>Result - No diffrence</h4>
+                    <hr>
+                    <h4></h4>
+                </div>
+            </div>
+        </ul>
+        <ul>
+            <div class="test_image_div col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test image - </b>
+                    <img src="/watch.jpg" class="img_responsive" style="width:300px; height:300px;">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b>
+                    <span>Watch</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>Mobilenet Model</b>
+                    <span>clock</span>
+                </h5>
+                <div class="mini_result" class="col-xs-12">
+                    <h4>Result - Google lens was more accurate </h4>
+                    <hr>
+                    <h4></h4>
+                </div>
+            </div>
+        </ul>
+    </div>
+</body>
+</html>
